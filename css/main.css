@@ -1,0 +1,95 @@
+.container {
+	width: 100vw;
+	height: 75vh;
+	display: flex;
+	justify-content: space-between;
+}
+.undernav {
+	height: 5vh;
+}
+.bottomnav {
+	height: 20vh;
+}
+
+.nav .mdl-button {
+	height: 75vh;
+	width: 14.25%;
+}
+.mdl-button--raised .mdl-button--colored {
+	background: none !important;
+}
+.silver {
+	background-color: silver !important;
+	
+}
+.yellow {
+	background-color: #c0c000 !important;
+}
+.teal {
+	background-color: #00c0c0 !important;
+}
+.green {
+	background-color: #00c000 !important;
+}
+.purple {
+	background-color: #c000c0 !important;
+}
+.red {
+	background-color: #c00000 !important;
+}
+.blue {
+	background-color: #0000c0 !important;
+}
+.black {
+	background-color: black !important;
+}
+.black2 {
+	background-color: black !important;
+	width: 68px;
+}
+.drkprpl {
+	background-color: #00214c !important;
+	width: 257px;
+}
+.white {
+	background-color: white !important;
+	width: 257px;
+}
+.royal {
+	background-color: #32006a !important;
+	width: 257px;
+}
+.charcoal1 {
+	background-color: #131313 !important;
+	width: 257px;
+}
+.charcoal2 {
+	background-color: #131313 !important;
+	width: 68px;
+}
+.charcoal3 {
+	background-color: #131313 !important;
+	width: 205px;
+}
+.grey {
+	background-color: #1d1d1d !important;
+	width: 68px;
+}
+
+
+.undernav .mdl-button {
+	height: 5vh;
+	width: 14.25%;
+}
+.bottomnav .mdl-button{
+	height: 20vh;
+	/*width: 14.25%;*/
+}
+p {
+	transform: rotate(-90deg);
+    -webkit- transform: rotate(-90deg);
+    -moz- transform: rotate(-90deg);
+    -ms- transform: rotate(-90deg);
+    transform-origin: center;
+	font-size: 35px;
+}
