@@ -13,7 +13,7 @@
 
 .nav .mdl-button {
 	height: 75vh;
-	width: 14.25%;
+	width: 14.30%;
 }
 .mdl-button--raised .mdl-button--colored {
 	background: none !important;
@@ -45,7 +45,7 @@
 }
 .black2 {
 	background-color: black !important;
-	width: 68px;
+	width: 70px;
 }
 .drkprpl {
 	background-color: #00214c !important;
@@ -65,7 +65,7 @@
 }
 .charcoal2 {
 	background-color: #131313 !important;
-	width: 68px;
+	width: 70px;
 }
 .charcoal3 {
 	background-color: #131313 !important;
@@ -73,13 +73,13 @@
 }
 .grey {
 	background-color: #1d1d1d !important;
-	width: 68px;
+	width: 70px;
 }
 
 
 .undernav .mdl-button {
 	height: 5vh;
-	width: 14.25%;
+	width: 14.30%;
 }
 .bottomnav .mdl-button{
 	height: 20vh;
@@ -92,4 +92,5 @@ p {
     -ms- transform: rotate(-90deg);
     transform-origin: center;
 	font-size: 35px;
+	white-space: nowrap;
 }
