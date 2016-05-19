@@ -93,8 +93,26 @@
 
 </div>
 
+<!--video on page load, disappears after play-->
+<div id="overlay">
+<video id="staticvideo" autoplay="true">
+    <source src="tvstatic.mp4" type="video/mp4">
+    </source>
+</video>
 
+</div>
 
+<script>
+	var video = document.getElementById('staticvideo');
+	var overlay = document.getElementById('overlay');
+
+	video.addEventListener('ended', function(){
+    overlay.style.display = 'none'; 
+	}, false);
+
+// uncomment to hide with timer
+ 	window.setTimeout(hideOverlay, 5000)
+</script>
 	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
     <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
     <script src='js/main.js'></script>

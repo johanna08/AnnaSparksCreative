@@ -94,3 +94,20 @@ p {
 	font-size: 35px;
 	white-space: nowrap;
 }
+/*video styles*/
+video#staticvideo {
+    z-index: 9999;
+    position:relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#overlay {
+    z-index: 9998;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.5);
+}
